@@ -1,7 +1,13 @@
 #include <stdio.h>
 /**
- *Main - Entry point 
- *Return: Always 0 (Success)
+ *Main - Entry point
+ * 
+ *Warnings are allowed
+ *Output should be same as examplee
+ *Program should compile without errors
+ *gcc
+ *Program should return 0
+ *
  */
 int main(void)
 {
