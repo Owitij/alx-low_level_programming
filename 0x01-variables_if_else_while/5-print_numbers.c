@@ -1,13 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  *main - Entry point
  *Return: 0 (Success)
  */
 int main(void)
 {
-int no;
-for (no = 0; no >= 9; no++)
-printf("%d", no);
+int x;
+for (x = 0; x <= 9; x++)
+printf("%d", x);
 printf("\n");
 return (0);
 }
