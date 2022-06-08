@@ -15,28 +15,19 @@ for (; n <= 98; n++)
 printf("%d", n);
 if (n == 98)
 continue;
-{
 printf(",");
 }
-n++;
+printf("\n");
 }
-}
-else if (n > 98)
+else
 {
 for (; n >= 98; n--)
 {
 printf("%d", n);
 if (n == 98)
 continue;
-{
 printf(",");
 }
-n--;
-}
-}
-else
-{
-printf("98");
-}
 printf("\n");
+}
 }
