@@ -5,21 +5,11 @@
  */
 void puts2(char *str)
 {
-int i = 0;
-char *j = "\n";
-while (*str)
-{
-_putchar(*str);
-str++;
-if (i == 0)
-{
-while (*j)
-{
-_putchar(*j);
-j++;
+int len = 0, i = 0;
+while (str[len] != '\0')
+len++;
+len -= 1;
+for (; i <= len; i += 2)
+_putchar(str[i]);
+_putchar('\n');
 }
-}
-i++;
-}
-}
-
